@@ -65,4 +65,4 @@ To avoid errors, please refer to the instruction.txt file for correct spelling a
 
 (https://![project](https://user-images.githubusercontent.com/114552954/236685910-6b7db885-a3f1-4aa7-a3a4-74d941a6cc32.png)
 
-##### To better understand how to use this RESTful API, you can refer to the Metro Route Frontend Repository available at [https://github.com/jainnick/metro-route-frontend]. It provides a clear example of how to call the API and it displays the result on console.
+##### To better understand how to use this RESTful API, you can refer to my Metro Route Frontend Repository available at [https://github.com/jainnick/metro-route-frontend]. It provides a clear example of how to call the API and it displays the result on console.
