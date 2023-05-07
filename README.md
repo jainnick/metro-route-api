@@ -13,14 +13,14 @@ The implementation of this API is based on Graph and priority queue data structu
 
 The Dijkstra's algorithm is used to calculate the shortest path between two stations, which is then stored in an array. This array is later traversed to determine the interchange stations, line endings, and metro lines.
 # Hierarchy
-function/Map/classes contains all the classes used in this program 
-ls:
-->all.js: to send the end result 
-->queue.js: To implement the priority queue
-->Graph.js: To implement the graph which stores the station map
-function/Map/functions contains the functions used to implement the program. 
-main.js-> where the server is made and API requests are handled.
-
+function/Map/classes contains all the classes used in this program <br>
+ls:<br>
+->all.js: to send the end result <br>
+->queue.js: To implement the priority queue<br>
+->Graph.js: To implement the graph which stores the station map<br>
+function/Map/functions contains the functions used to implement the program.<br> 
+main.js-> where the server is made and API requests are handled.<br>
+instruction.txt->contains the correct station names that should be used for the API calls.<br>
 # Lines implemented
 ->Blue : 2.02 minutes<br>
 ->Blue Branch : 1.875 minutes<br>
@@ -43,7 +43,7 @@ from - Starting station name<br>
 to - Destination station name<br>
 Response:<br>
 mydata - An object containing the shortest path and details of interchange stations and lines to be taken to reach the destination station.<br>
-Example Usage:<br>
+## Example Usage:<br>
 /route?from=Akshardham&to=Central%20Secretariat<br>
 ``` 
 {
@@ -57,7 +57,8 @@ time: 21.560000000000002
 }
 ```
 
-Note:
+### Notes:
 If no input is given for either from or to, the response will be "No input given".
+To avoid errors, please refer to the instruction.txt file for correct spelling and formatting of station names.
 
 
