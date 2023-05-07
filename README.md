@@ -1,4 +1,4 @@
-# Delhi Metro route api
+# Delhi Metro route api - using  Dijkstra's algorithm
 This is a RESTful API built with Node.js, Express.js that allows users to calculate the shortest path between two metro stations. It is designed to be easy to use and can be integrated into any web application.
 # Data References
 Data about stations per line is downloaded from Wikipedia tables (https://en.wikipedia.org/wiki/Red_Line_(Delhi_Metro)), etc. for each line.
